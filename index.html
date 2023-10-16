@@ -6,19 +6,280 @@
     <link rel="stylesheet" href="/index.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
 
+
         @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+        *{margin: 0;padding: 0;}
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #FAFAFA;
+            padding: 0 15px 15px 15px;
+        }
+
+        .card{
+            height: auto; width: 95%;
+            padding: 12px;
+            background-color: white;
+            box-shadow: 0 0px 10px -7px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0 0 0;
+        }
+
+
+        .profileImage{
+            height: 180px; width: 180px;
+            border-radius: 50%;
+            box-shadow: 0 5px 10px -5px;
+        }
+
+        .heading{
+            font-family: 'Merriweather';
+        }
+        .para{
+            font-family: 'Roboto Condensed';
+        }
+
+        .profileButtons {
+            background-color: #4CAF50;
+            width: auto;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: flex;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+            font-family: 'Roboto COndensed';
+            transition: background-color 0.3s;
+            margin-top: 15px;
+            }
+
+            .profileButtons:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+            }
+
+            .profileButtons:active {
+            background-color: #1f6690; /* Even darker blue when clicked */
+            }
+
+            .sections{
+                height: auto; width: 100%;
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+            }
+
+
+            .circle{
+                height: 30px; width: 30px;
+                background-color: #4CAF50;
+                padding: 10px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .info_sections{
+                margin-left: 15px;
+            }
+
+            .material-symbols-outlined{
+                color: white;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .fa {
+                padding: 20px;
+                font-size: 27px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+            }
+            .fa-instagram, .fa-linkedin, .fa-facebook, .fa-google {
+                color: white;
+            }
+            .galleryImage{
+                height: 120px; width: 120px;
+                background-color: #4CAF50;
+                border-radius: 20px;
+                margin: 5px;
+            }
     </style>
 
-    <title>Sunil Chavan</title>
+    <title>Rishabh Dubey</title>
 </head>
 <body>
     
-    <h1 style="font-family: 'Lato';">COMING SOON!</h1>
+
     
+    <div class="card">
+
+        <img class="profileImage" src="sunilchavan.jpg" alt="Image of Rishabh Dubey">
+        <h3 class="heading" style="margin-top: 15px">Dr. Sunil Chavan</h3>
+        <p class="para" style="text-align: center;">B.H.M.S | C.C.H | C.G.O<br>Shree Siddhivinayak Clinic</p>
+        <a href="rishabhdubey.vcf" style="text-decoration: none; "><button class="profileButtons">SAVE CONTACT</button></a>
+        
+
+        <a href="tel:+919326123182" style="text-decoration: none; color: black; display: contents;">
+            <div class="sections">
+                
+                <div class="circle">
+                    <span class="material-symbols-outlined">mail</span>  
+                </div>
+
+                <div class="info_sections">
+                    <div class="para" style="font-size: 18px;"><b>+91 8097239966</b></div>
+                    <div class="para" style="color: grey;">Phone</div>
+                </div>
+
+            </div>
+        </a>
+
+
+        <a href="mailto:drsunilchavan2014@gmail.com" style="text-decoration: none; color: black; display: contents;">
+            <div class="sections">
+                <div class="circle">
+                    <span class="material-symbols-outlined">mail</span>  
+                </div>
+
+                <div class="info_sections">
+                    <p class="para" style="font-size: 18px;"><b>drsunilchavan2014@gmail.com</b></p>
+                    <p class="para" style="color: grey;">Email</p>
+                </div>
+            </div>
+        </a>
+        
+
+
+        <a href="https://www.instagram.com/drsunilchavan2014" style="text-decoration: none; color: black; display: contents;">
+            <div class="sections">
+                <div class="circle">
+                    <span class="fa fa-instagram"></span>
+                </div>
+
+                <div class="info_sections">
+                    <p class="para" style="font-size: 18px;"><b>@drsunilchavan2014</b></p>
+                    <p class="para" style="color: grey;">Instagram</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.facebook.com/profile.php?id=100009532509365&mibextid=LQQJ4d" style="text-decoration: none; color: black; display: contents;">
+            <div class="sections">
+                <div class="circle">
+                    <span class="fa fa-facebook"></span>
+                </div>
+
+                <div class="info_sections">
+                    <p class="para" style="font-size: 18px;"><b>Dr Sunil Chavan</b></p>
+                    <p class="para" style="color: grey;">Facebook</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://g.co/kgs/6KRMva" style="text-decoration: none; color: black; display: contents;">
+            <div class="sections">
+                <div class="circle">
+                    <span class="fa fa-google"></span>
+                </div>
+
+                <div class="info_sections">
+                    <p class="para" style="font-size: 18px;"><b>Dr Sunil Chavan</b></p>
+                    <p class="para" style="color: grey;">Google My Business</p>
+                </div>
+            </div>
+        </a>
+
+
+    </div>
+
+    <div class="card" style="font-family: 'Roboto Condensed';">
+        <h3>DOWNLOAD BROCHURE</h3>
+    </div>
+
+    <div class="card" style="align-items: start;">
+
+        <h3 class="heading" style="margin-bottom: 10px;">About</h3>
+        <p class="para">
+            Dr. Sunil V Chavan is an General Practioner in Palava, Dombivali, Maharashtra and he has 11 years of experience. He has completed B.A.M.S, C.G.O and C.C.H Dr. Sunil V Chavan practices at Shree Siddhivinayak Clinic in Dombivli, Maharashtra.
+        </p>
+        
+    </div>
+
+    <div class="card" style="align-items: start;">
+
+        <h3 class="heading" style="margin-bottom: 15px">Hours</h3>
+
+        <div class="info_sections" style="margin-bottom: 20px; margin-left: 0;">
+            <p class="para" style="font-size: 18px;"><b>Monday</b></p>
+            <p class="para" style="color: grey;">09:00AM - 02:00PM | 06:00 - 10:00PM</p>
+        </div>
+
+        <div class="info_sections" style="margin-bottom: 20px; margin-left: 0;">
+            <p class="para" style="font-size: 18px;"><b>Tuesday</b></p>
+            <p class="para" style="color: grey;">09:00AM - 02:00PM | 06:00 - 10:00PM</p>
+        </div>
+
+        <div class="info_sections" style="margin-bottom: 20px; margin-left: 0;">
+            <p class="para" style="font-size: 18px;"><b>Wednesday</b></p>
+            <p class="para" style="color: grey;">09:00AM - 02:00PM | 06:00 - 10:00PM</p>
+        </div>
+
+        <div class="info_sections" style="margin-bottom: 20px; margin-left: 0;">
+            <p class="para" style="font-size: 18px;"><b>Thursday</b></p>
+            <p class="para" style="color: grey;">09:00AM - 02:00PM | 06:00 - 10:00PM</p>
+        </div>
+
+        <div class="info_sections" style="margin-bottom: 20px; margin-left: 0;">
+            <p class="para" style="font-size: 18px;"><b>Friday</b></p>
+            <p class="para" style="color: grey;">09:00AM - 02:00PM | 06:00 - 10:00PM</p>
+        </div>
+
+        <div class="info_sections" style="margin-bottom: 20px; margin-left: 0;">
+            <p class="para" style="font-size: 18px;"><b>Saturday</b></p>
+            <p class="para" style="color: grey;">09:00AM - 02:00PM | 06:00 - 10:00PM</p>
+        </div>
+
+        <div class="info_sections" style="margin-bottom: 20px; margin-left: 0;">
+            <p class="para" style="font-size: 18px;"><b>Sunday</b></p>
+            <p class="para" style="color: grey;">09:00AM - 02:00PM | Sunday Evening Closed</p>
+        </div>
+        
+    </div>
+
+    <div class="card" style="align-items: start;">
+
+        <h3 class="heading" style="margin-bottom: 10px;">Address</h3>
+        <p class="para">
+            Shop No 26, Chandresh Madhuban CHS, Lodha Casa Rio Gold Rd, Nilje Gaon, Maharashtra 421204
+
+
+            
+        </p>
+        <a href="https://www.google.com/maps/dir/28.4322595,77.5045989/19.1550855,73.0758652/@19.1545253,73.0751804,18.61z/data=!4m4!4m3!1m1!4e1!1m0!11m1!6b1?entry=ttu" style="text-decoration: none; "><button class="profileButtons">GET DIRECTIONS</button></a>
+        
+    </div>
+
+
+    
+
 </body>
 </html>
